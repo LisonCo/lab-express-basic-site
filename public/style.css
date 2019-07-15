@@ -1,0 +1,57 @@
+body {
+    margin : 0;
+    height : 100vh;
+}
+
+p {
+    text-align : center;
+    color : blue;
+}
+
+nav {
+    font-weight : bold;
+    height : 20vh;
+    background-color : blue;
+    color : white;
+}
+
+ul {
+    display : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    padding-top : 8vh;
+    list-style-type: none;
+    margin : 0;
+}
+
+nav li {
+    width : 33%;
+}
+
+nav a {
+    color : white;
+    text-decoration : none;
+}
+
+h1 {
+    color : blue;
+    text-align : center;
+    padding-top : 10vh;
+}
+
+footer {
+    color : white ;
+    text-align : center;
+    background-color : blue;
+    height : 15vh;
+    padding-top : 7vh;
+}
+
+section {
+    height : 60vh;
+}
+
+section img {
+    height : 20vh;
+    margin-left : 42%;
+}
